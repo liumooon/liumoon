@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int intA, intB, intC;
+	
+	cin>> intA;
+	cin>> intB;
+	
+	if(intA>intB)
+	{
+		intC= intA-intB;
+		cout <<intC;
+	}
+	
+	else
+	{
+		intC= intB-intA;
+		cout <<intC;
+	}
+	
+	system("pause");
+	return 0;
+	
+	
+ } 
